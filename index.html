@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1>My Portfolio</h1>
+        <nav id="mainNav">
+            <button id="navToggle" aria-label="Toggle navigation">☰</button>
+            <div id="navLinks">
+                <a href="#portfolio" class="nav-tab active">Portfolio</a>
+                <a href="#projects" class="nav-tab">Projects</a>
+                <a href="#todo" class="nav-tab">To-Do</a>
+                <a href="#contact" class="nav-tab">LinkedIn &amp; GitHub</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="portfolio" class="tab-content" style="display:block;">
+            <h2>About Me</h2>
+            <p id="welcome-msg">Hi, I'm Pavitra! I'm passionate about web development, user experience, and building interactive projects. This portfolio showcases my work, including real-time apps and responsive websites, developed during my Apex Planet internship and beyond.</p>
+            <h3>Featured Skills & Technologies</h3>
+            <ul id="skills-list">
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>Responsive Design & Modern UI</li>
+                <li>Project Management & Collaboration</li>
+                <li>API Integration</li>
+            </ul>
+            <h3>Site Features</h3>
+            <ul>
+                <li><strong>Projects Gallery:</strong> Explore my key projects, including a To-Do/Note-Taking App and Product Page.</li>
+                <li><strong>To-Do/Note-Taking App:</strong> Organize tasks and notes interactively.</li>
+                <li><strong>Product Page:</strong> View featured products with details and interactive UI.</li>
+                <li><strong>Contact Form:</strong> Get in touch with me easily.</li>
+            </ul>
+        </section>
+        <section id="projects" class="tab-content" style="display:block;">
+            <h2>My Projects</h2>
+            <div class="project-list">
+                <div class="project-card">
+                    <h3>Productivity Dashboard</h3>
+                    <p>A real-time dashboard for managing tasks, notes, and products. Features localStorage persistence, filtering, and sorting. Built with HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Travel Explorer</h3>
+                    <p>Responsive travel site with a destinations carousel, weather updates via API, and interactive quiz. Modular, multi-page navigation and dynamic content.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>This multi-page portfolio showcases my skills, projects, and contact info. Features a mobile-friendly navigation, interactive UI, and real-time features.</p>
+                </div>
+                <div class="project-card">
+                    <h3>To-Do/Note-Taking App</h3>
+                    <p>Simple app for managing tasks and notes, with instant updates and persistent data using localStorage.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Product Page</h3>
+                    <p>Interactive product catalog with filtering and sorting by category, price, and rating. Built for demo and learning purposes.</p>
+                </div>
+            </div>
+        </section>
+        <section id="todo" class="tab-content" style="display:block;">
+            <h2>My Notes & Tasks</h2>
+            <div id="todo-app">
+                <h3>Add a New Task/Note</h3>
+                <input type="text" id="new-todo" placeholder="Enter your task or note...">
+                <button class="button" id="add-todo">Add</button>
+                <ul id="todo-list"></ul>
+            </div>
+        </section>
+        <section id="contact" class="tab-content" style="display:block;">
+            <h2>Connect with Me</h2>
+            <div style="margin-bottom:1.5rem; font-size:1.2rem;">
+                <p>
+                    <strong>LinkedIn:</strong>
+                    <a href="https://www.linkedin.com/in/pavitra-savarapu" target="_blank" style="color:#1976d2; text-decoration:underline; font-weight:bold;">www.linkedin.com/in/pavitra-savarapu</a>
+                </p>
+                <p>
+                    <strong>GitHub:</strong>
+                    <a href="https://github.com/pavitra2006/apex_task3" target="_blank" style="color:#43a047; text-decoration:underline; font-weight:bold;">github.com/pavitra2006/apex_task3</a>
+                </p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
